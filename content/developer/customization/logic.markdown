@@ -44,7 +44,9 @@ app/controllers/spree/products_controller_decorator.rb
 <% end %>
 
 ***
-The following code is a preferred way when redefining existing methods
+The following code is a preferred way when redefining existing methods,
+because it allows you to invoke original behaviour by calling original
+method with "super"
 ***
 
 **Redefining a method to the Product model:**
